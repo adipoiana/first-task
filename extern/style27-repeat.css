@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+body {
+	background: white;
+	padding: 10px;
+	font-family: "Inter";
+}
+.background {
+	background-image: url(https://assets.website-files.com/5e865e09d8efa3310676b585/5e865e09d8efa3b4c076b5ee_BG%20Shape%20Content.svg);
+	background-size: cover;
+	padding: 20px 0;
+}
+h6 {
+	font-weight: 700 !important;
+	color: #08090a;
+	font-size :20px !important;
+	font-family:"Inter", sans-serif ;
+	margin-top: 0 !important;
+	margin-bottom: !important0;
+}
+span {
+	color: #35b8be;
+	font-size: 16px;
+	font-weight: 400;
+
+}
+.general {
+	padding: 25px;
+	align-items: center;
+	border-color: rgb(53 184 190 / 15%);
+	background-color: #fff;
+	border-radius: 6px;
+	border-width: 1px;
+	border-style: solid;
+	margin-bottom: 25px;
+}
+.general:hover {
+	border-color: rgb(53 184 190 / 50%);
+}
+img {
+	vertical-align: middle;
+	object-fit: cover;
+	cursor: pointer;
+	align-items: center;
+	max-width: 100%;
+	border-radius: 6px;
+}
+p {
+	font-size: 16px;
+	color: #546285;
+}
+.cantitate {
+	width: 60px;
+	height: 45px;
+	border-radius: 6px;
+	border: 1px solid #ddd;
+	background-color: #fafafa;
+	padding: 8px 4px 8px 12px;
+}
+.cos {
+border-radius: 6px;
+background-color: #35b8be;
+align-items: center;
+width: 120px;
+height: 45px;
+color: white;
+font-size: 15px;
+border: none;
+margin-left: 7px;
+
+}

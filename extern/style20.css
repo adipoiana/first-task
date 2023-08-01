@@ -1,0 +1,155 @@
+body {
+	margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100&display=swap');
+.envato-market {
+	background: #4c4848;
+	display: flex;
+	border-bottom: 1px dotted;
+	position: relative;
+	padding: 15px;
+}
+.buy-link {
+	text-decoration: none;
+	color: white;
+	background-color: #7aa93c;
+	box-shadow: 0 3px 0 #6f9a37;
+	padding: 7px 20px;
+	border-radius: 5px;
+	position: absolute;
+	right: 20px;
+	top: 12px;
+	font-size: 15px;
+}
+
+.envato-link {
+	color: white;
+	font-size: 25px;
+	text-decoration: none;
+	font-weight: bold;
+	}
+
+.span-market {
+	color: #6A913A;
+	font-size: 25px;
+	text-decoration: none;
+}
+.folietopnav {
+	display: flex;
+	padding: 30px;
+	position: relative;
+	text-decoration: none;
+}
+.folie{
+	background: white;
+	color: #222 !important;
+	text-align: left;
+	font-size: 35px;
+	letter-spacing: -1.5px;
+	font-weight: 900;
+	text-decoration: none;
+	font-family: poppins, sans-serif;
+    
+}
+.folie a {
+	color: black;
+}
+
+.topnav {
+	display: grid;
+	column-gap: 15px;
+	grid-template-columns: repeat(5, 1fr);
+	font-size: 12px;
+	font-family: poppins,sans-serif;
+	float: right;
+	padding-right: 15px;
+	padding-left: 15px;
+	position: absolute;
+	right: 70px;
+	font-weight: bold;
+}
+.topnav a:first-child {
+	text-decoration: none;
+	color: #1FB4CC;
+}
+.topnav a:hover{
+	text-decoration: none;
+	color: #1FB4CC;
+}
+h2 {
+	font-size: 18px;
+	color: #1fb4cc;
+	text-align: center;
+	margin-top: 50px;
+	font-weight: 300;
+	line-height: 34px;
+	letter-spacing: 4px;
+	font-family: Poppins, Helvetica, Arial, sans-serif;
+}
+h1 {
+	font-size: 50px;
+	font-family: poppins;
+	font-weight: 700;
+	margin-top: 25px;
+	color: #262626;
+	line-height: 64px;
+	text-align: center;
+	letter-spacing: 3px;
+	margin-bottom: 20px;
+}
+p {
+	text-align: center;
+	font-size: 20px;
+	color: #777777;
+	font-weight: 400;
+	line-height: 20px;
+	font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+.buton {
+	background-color: #0CABD3;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 17px 30px;
+    font-weight: 600;
+    border-radius: 5px; 
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    display: inline-block;
+    text-decoration: none;
+
+
+
+}
+.button {
+	text-align: center;
+	margin-top: 45px;
+}
+
+a {
+	text-decoration: none;
+}
+
+i {
+	color:white ;
+    padding: 15px;
+    background:#076fe9;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    line-height: 35px;
+    display: block;
+    text-align: center;
+    font-size: 35px;
+
+}
+i:hover {
+	background: #044897;
+	cursor: pointer;
+}
+.icon {
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+}
