@@ -1,104 +1,114 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<title>task13</title>
 	<style>
-	    body {
-	    	margin: 0;
-	    	}
-	    .principal-background {
+		body {
+			margin: 0;
+		}
+
+		.main-content {
 			background-color: #fc6313;
 			padding-top: 12px;
 			padding-bottom: 125px;
-		    }
+		}
+
 		#circle {
 			width: 60px;
 			height: 60px;
-		   border-radius: 50%;
-		   background-color: white;
-		   margin-left: 50px;
-            }
-		.secundar-background {
+			border-radius: 50%;
+			background-color: white;
+			margin-left: 50px;
+		}
+
+		.section-container {
 			background-color: #ffffff;
-         display: grid;
+			display: grid;
 			column-gap: 20px;
 			grid-template-columns: repeat(3, 1fr);
 			margin-top: 130px;
 			padding: 0 50px;
 			padding-bottom: 40px;
 
-		    }
-		img {
+		}
+
+		.section-container img {
 			width: 100%;
-			height:260px;
+			height: 260px;
 			object-fit: cover;
 			margin-top: -100px;
-		    }
-		h2 {
+			border-radius: 10px;
+		}
+
+		.section-container h2 {
 			color: #e6a17a;
-		   }
-		hr {
+		}
+
+		.section-container hr {
 			width: 100%;
 			border: 1px solid gray;
-		    }
-		p   {
+		}
+
+		.section-container p {
 			width: 100%;
 			line-height: 25px;
 			font-size: 20px;
-		    }
-		button {
+		}
+
+		.section-container button {
 			background-color: transparent;
 			border: none;
 			font-weight: bold;
-		    text-decoration: underline wavy gray;
-		    padding-bottom: 25px;
-			}
-		span {
+			text-decoration: underline wavy gray;
+			padding-bottom: 25px;
+		}
+
+		.section-container span {
 			text-decoration: underline;
 
-		    }
-
+		}
 	</style>
 </head>
+
 <body>
 
-	<div class="principal-background">
-	     <div id="circle">
+	<div class="main-content">
+		<div id="circle">
 		</div>
-			<div class="secundar-background">
-		<div>
-    		<img src="imagini/smile.png"> 
-    		<h2>Meditation for sleep</h2>
-    		<hr>
-    		<p>Sample text. Click to select the text box.    	
-    		   Click again or double click to 
-    		   start editing the text.</p>
-    		   <button>LEARN MORE</button>
-    	</div>
-    	<div>
-    		<img src="imagini/task8.jpg">
-            <h2>Nature Meditations</h2>
-            <hr>
-            <p>Sample text. Click to select the text 
-               box. Click again or double click to
-               start editing the text. </p>
-                <button>LEARN MORE</button>
-    	</div>
-    	<div>
-    		<img src="imagini/foto.jpg">
-    		<h2>The Happy Mind</h2>
-    		<hr>
-    		<p>Sample text. Click to select the text 
-               box. Click again or double click to
-               start editing the text.</p>
-                <button>LEARN MORE</button>
-    	</div>
-    	<p>Image from <span>freepik</span></p>
-   </div>
+		<div class="section-container">
+			<div>
+				<img src="imagini/smile.png">
+				<h2>Meditation for sleep</h2>
+				<hr>
+				<p>Sample text. Click to select the text box.
+					Click again or double click to
+					start editing the text.</p>
+				<button>LEARN MORE</button>
+			</div>
+			<div>
+				<img src="imagini/task8.jpg">
+				<h2>Nature Meditations</h2>
+				<hr>
+				<p>Sample text. Click to select the text
+					box. Click again or double click to
+					start editing the text. </p>
+				<button>LEARN MORE</button>
+			</div>
+			<div>
+				<img src="imagini/foto.jpg">
+				<h2>The Happy Mind</h2>
+				<hr>
+				<p>Sample text. Click to select the text
+					box. Click again or double click to
+					start editing the text.</p>
+				<button>LEARN MORE</button>
+			</div>
+			<p>Image from <span>Freepik</span></p>
+		</div>
 	</div>
 
-    
-   
 </body>
+
 </html>

@@ -1,45 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
-body{
-	 font-family: 'Open Sans', sans-serif;
-	 line-height: 1.5;
-	 color: rgb(3 3 3);
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.5;
+	color: rgb(3 3 3);
 
 }
 
-.antet{
+.coupon-figma {
 	background: rgb(3 3 3);
 	padding: 12px 0;
 	text-align: center;
 }
-.figma a{
+
+.figma a {
 	color: rgb(255 255 255);
 	text-decoration: none;
 }
+
 .figma a:hover {
 	color: rgb(255 198 0) !important;
 }
-.figma h5{
+
+.figma h5 {
 	font-size: 15px;
 	margin-bottom: 0;
 }
-.navigation{
+
+.menu-section {
 	padding: 12px 0;
 	background-color: rgb(255 255 255) !important;
 	border-bottom: 1px solid rgb(238 238 238);
 	z-index: 100;
 }
-.logare{
+
+.logare {
 	text-align: right;
 }
-.logare a{
+
+.logare a {
 	text-decoration: none;
 
 }
-.log-in{
+
+.log-in {
 	background-color: transparent;
 	border: none;
 }
-.sign-up{
+
+.sign-up {
 	background-color: rgb(255 198 0);
 	border: 1px solid rgb(255 198 0);
 	padding: 5px 15px;
@@ -47,83 +56,89 @@ body{
 	font-weight: bold;
 
 }
-.logo{
+
+.logo {
 	width: 70px !important;
 	padding-top: 10px;
 	margin-right: 10px;
 }
-.ouizard .nav-link{
+
+.ouizard .nav-link {
 	color: rgb(3, 3, 3) !important;
 	font-size: 16px !important;
-	background-color: ;
 }
-.bara-navigare .navbar{
- 	padding: 0 !important;
+
+.bara-navigare .navbar {
+	padding: 0 !important;
 }
-.bara-navigare .bg-light{
+
+.bara-navigare .bg-light {
 	background-color: transparent !important;
 }
-.templates{
+
+.templates {
 	padding-top: 200px;
 	font-size: 15px;
 }
-.templates a{
+
+.templates a {
 	text-decoration: none;
-	color: rgb(3 3 3) !important; ;
+	color: rgb(3 3 3) !important;
 }
-.fa-angle-right{
+
+.fa-angle-right {
 	padding: 0 5px;
 }
 
-header{
-	position: static;
-}
-.navnav{
+.navnav {
 	position: fixed;
 	top: 0;
 	left: 0;
 }
-.navic{
+
+.navic {
 	padding-left: 0 !important;
 }
-.product{
+
+.product {
 	position: relative;
 }
-.ul1{
-    display: none;
-    position: absolute;
-    box-shadow: rgb(0 0 0 / 15%) 0px 0.4rem 2rem 0px;
-    border-radius: 0.8rem;
-    padding: 15px 20px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(3 3 3);
-    width: 300px;
+
+.submenu {
+	display: none;
+	position: absolute;
+	box-shadow: rgb(0 0 0 / 15%) 0px 0.4rem 2rem 0px;
+	border-radius: 0.8rem;
+	padding: 15px 20px;
+	background-color: rgb(255, 255, 255);
+	color: rgb(3 3 3);
+	width: 300px;
 }
-.product:hover .ul1{
+
+.product:hover .submenu {
 	display: block !important;
-	
+
 }
-.ul1 a {
-   text-decoration: none;
-   color: rgb(3 3 3);
-   text-align: left;
-   display: flex;
-   flex-direction: column;
-   align-items: flex-start;
-   margin-bottom: 1.2rem;
+
+.submenu a {
+	text-decoration: none;
+	color: rgb(3 3 3);
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-bottom: 1.2rem;
 }
-.ul1 a:hover{
-	color:rgb(3 3 3) ;
+
+.submenu a:hover {
+	color: rgb(3 3 3);
 }
-.power{
-	color: #959595;
-	font-size: 1.6 rem;
-	line-height: 1.6 rem;
+
+.title {
+	padding: 15px 0;
 }
-.heading{
-	padding: 15px 0 ;
-}
-.paragraph{
+
+.paragraph {
 	padding: 5px 0 30px;
 	letter-spacing: -0.2px;
 	font-size: 24px;
@@ -134,8 +149,9 @@ header{
 .imagini img {
 	width: 100%;
 }
-.overlay{
-	background-color:#199cdb ;
+
+.overlay {
+	background-color: #199cdb;
 	opacity: 0.6;
 	position: absolute;
 	top: 0;
@@ -146,19 +162,15 @@ header{
 	display: none;
 }
 
-.imagini:hover .overlay{
+.imagini:hover .overlay {
 	display: block;
 }
-.imagini{
+
+.imagini {
 	position: relative;
 	box-shadow: rgb(0 0 0 / 11%) 0px 0px 20px;
 }
-.bottom{
-	width: 356px !important;
-	margin-left: auto;
-	margin-right: auto;
 
-}
 .imagini span {
 	display: none;
 	position: absolute;
@@ -169,58 +181,63 @@ header{
 	font-size: 18px;
 	font-weight: 500;
 	opacity: 1;
-	
-
 }
+
 .imagini:hover span {
 	display: block;
 	color: white !important;
 }
 
-header{
+.header-section {
 	position: fixed;
 	z-index: 12;
 	width: 100%;
 }
-.heading-h3 h3{
+
+.page-name h3 {
 	font-size: 20px;
 	text-align: center;
 	color: rgb(3 3 3);
 	font-weight: 500;
 }
-.heading-h3 a{
+
+.page-name a {
 	text-decoration: none;
-	 color: rgb(3 3 3);;
+	color: rgb(3 3 3);
 
 }
-.heading-h3{
+
+.page-name {
 	margin: 10px 0;
 }
 
-
-.design{
+.design {
 	background-color: rgb(3 3 3);
 	color: white;
 	border-radius: 10px;
-	margin:100px 60px;
+	margin: 100px 60px;
 }
 
-.imagine-right img{
+.imagine-right img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
 
 }
-.design-ideas{
+
+.design-ideas {
 	padding: 60px;
 }
-.design-ideas h3{
+
+.design-ideas h3 {
 	font-size: 43px;
 }
-.design-ideas p{
+
+.design-ideas p {
 	font-size: 23px;
 }
-.design-ideas button{
+
+.design-ideas button {
 	color: rgb(3 3 3);
 	background-color: rgb(255 198 0);
 	border: 1px solid rgb(255 198 0);
@@ -230,23 +247,27 @@ header{
 	font-size: 18px;
 
 }
-.product-blog  a{
+
+.product-blog a {
 	color: rgb(3 3 3) !important;
 	text-decoration: none;
 }
-.product-blog{
+
+.product-blog {
 	padding-left: 0 !important;
 	list-style: none;
 	font-size: 12px;
 	line-height: 3;
 	letter-spacing: 0px;
 }
-.list-heading{
+
+.list-heading {
 	color: rgb(127 127 127);
 	font-size: 14px;
 	margin-bottom: 15px;
 }
-.product-blog span{
+
+.product-blog span {
 	background-color: rgb(255 198 0);
 	font-weight: bold;
 	border-radius: 8px;

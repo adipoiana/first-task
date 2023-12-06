@@ -1,141 +1,160 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<title>task17</title>
 	<style>
 		body {
-		    margin: 0;	
-		    }
-		.primar {
-		    background-color: #eef3fa;
-		    padding-top: 40px;
-		}
-		.secundar {
-		    display: block;
-		    position: relative;
-		}
-		.secundar-top {
-		    background-color: #ffdbaa;
-		    padding: 15px;
-		    margin: 0 40px 0 40px;
-		    display: block;
-		    border-bottom: 1px solid black;
-		}
-		.gridnav {
-		    display: grid;
-		    column-gap: 40px;
-		    grid-template-columns: repeat(4, 1fr);
-		    float: right;
-		    position: absolute;
-		    top: 20px;
-		    right: 130px;
-	      }
-		.secundar-bottom {
-		    background-color: #d4a76a;
-		    margin: 0 40px 0px 40px;
-		    padding-bottom: 40px;
-		}
-		.grid-container {
-		    display: grid;
-		    column-gap: 100px;
-		    grid-template-columns: repeat(3, 1fr);
-		    padding: 25px 100px;
-		}
-		.grid-container div{
-		    background-color: white;
-	          position: relative;
-		    box-shadow: 5px 10px 10px 5px #8e7147 ;
+			margin: 0;
+			background-color: #eef3fa;
+			padding-top: 40px;
 		}
 
-		a {
-		    background-color: #805215;
-		    padding: 15px;
-		    color: white;
-		    text-decoration: none;
-		    font-size: 20px;
-		    text-align: center;
-		    align-items: center;
-		    justify-content: center;
-		    display: flex;
+		.main-container {
+			display: block;
+			position: relative;
 		}
+
+		.section-header {
+			background-color: #ffdbaa;
+			padding: 15px;
+			margin: 0 40px 0 40px;
+			display: block;
+			border-bottom: 1px solid black;
+		}
+
+		.section-container {
+			background-color: #d4a76a;
+			margin: 0 40px 0px 40px;
+			padding-bottom: 40px;
+		}
+
+		.gridnav {
+			display: grid;
+			column-gap: 40px;
+			grid-template-columns: repeat(4, 1fr);
+			float: right;
+			position: absolute;
+			top: 20px;
+			right: 130px;
+		}
+
+		.grid-container {
+			display: grid;
+			column-gap: 100px;
+			grid-template-columns: repeat(3, 1fr);
+			padding: 25px 100px;
+		}
+
+		.grid-container div {
+			background-color: white;
+			position: relative;
+			box-shadow: 5px 10px 10px 5px #8e7147;
+		}
+
+		.gridnav a,
+		.grid-container a,
+		.about-us .learn-more {
+			background-color: #805215;
+			padding: 15px;
+			color: white;
+			text-decoration: none;
+			font-size: 20px;
+			text-align: center;
+			align-items: center;
+			justify-content: center;
+			display: flex;
+		}
+
 		.about-us {
-		    background-color: white;
-		    margin: 5px 35px 0 60px;
-		    padding: 15px;
-		    box-shadow: 5px 10px 10px 5px #8e7147 ;
-	      }
+			background-color: white;
+			margin: 5px 35px 0 60px;
+			padding: 15px;
+			box-shadow: 5px 10px 10px 5px #8e7147;
+			text-align: center;
+		}
+
 		.heading2 {
-		    margin-top: 0px;
+			margin-top: 0px;
 		}
-		.a1 {
-		    position: absolute;
-		    bottom: 15px;
-		    left: 15px;
-		    right: 15px;
-		    border: 1px solid black;
-	          padding-top: 10px;
-            }
-		.a2 {
-		    border: 1px solid black;
-            }
-		h1 {
-		    padding-left: 20px;
-		    color:#805215 ;
-		    margin-top: 7px;
+
+		.button-group {
+			position: absolute;
+			bottom: 15px;
+			left: 15px;
+			right: 15px;
+			border: 1px solid black;
+			padding-top: 10px;
 		}
-		h2 {
-		    text-align: center;
+
+		.learn-more {
+			border: 1px solid black;
 		}
-		p {
-		    padding-left: 15px;
-		    font-size: 20px;
-		    padding-bottom: 60px;
-		    }
+
+		.section-header h1 {
+			padding-left: 20px;
+			color: #805215;
+			margin-top: 7px;
+		}
+
+		.grid-container h2 {
+			text-align: center;
+		}
+
+		.grid-container p {
+			padding-left: 15px;
+			font-size: 20px;
+			padding-bottom: 60px;
+		}
+
 		.p-about-us {
-		   padding-bottom:0px ;
-            }
+			padding-bottom: 0px;
+		}
 	</style>
 </head>
+
 <body>
-      <div class="primar">
-      	 <div class="secundar">
-      	 <div class="secundar-top">
-      	 	<h1>PUERTO RICO AIRLINES</h1>
-      	 	<div class="gridnav">
-      	 		<a href="https://www.google.ro">HOME</a>
-      	 		<a href="https://www.google.ro">FLIGHTS</a>
-      	 		<a href="https://www.google.ro">SUPORT</a>
-      	 		<a href="login">LOGIN</a>
-      	      </div>
-      	</div>
-      	<div class="secundar-bottom">
-      	<div class="grid-container">
-      		<div>
-      		<h2>Flights</h2>
-      		<p>Come check out or sweet flights! Direct flights available dayli!</p>	
-      		<a class="a1" href="https://www.google.ro">Lets Go</a>
-      		</div>
-      		<div>
-      		<h2>Group Trips</h2>
-      		<p>We offer great group rates! For famillies with 4 members to huge gatherings with 50+!</p>	
-      		<a class="a1" href="https://www.google.ro">Group Rates</a>	
-      		</div>
-      		<div>
-      		<h2>Discount Flights</h2>
-      		<p>Discount flights available for individuals! single chair filler tickets for low rates!</p>	
-      		<a class="a1" href="https://www.google.ro">Jump In</a>	
-      		</div>
+	<div class="main-container">
+		<div class="section-header">
+			<h1>PUERTO RICO AIRLINES</h1>
+			<div class="gridnav">
+				<a href="https://www.google.ro">HOME</a>
+				<a href="https://www.google.ro">FLIGHTS</a>
+				<a href="https://www.google.ro">SUPORT</a>
+				<a href="login">LOGIN</a>
+			</div>
 		</div>
-      	 	<div class="about-us">
-      	 	<h2 class="heading2">About us</h2>	
-      	 	<p class="p-about-us">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  et dolore magma aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      	 	<a class="a2" href="https://www.google.ro">Learn More</a>
-      	 	</div>	
-      	 	</div>
-      	 	
-      	 </div>
-      	
-      </div>
+		<div class="section-container">
+			<div class="grid-container">
+				<div>
+					<h2>Flights</h2>
+					<p>Come check out or sweet flights! Direct flights available dayli!</p>
+					<a class="button-group" href="https://www.google.ro">Lets Go</a>
+				</div>
+				<div>
+					<h2>Group Trips</h2>
+					<p>We offer great group rates! For famillies with 4 members to huge gatherings with 50+!</p>
+					<a class="button-group" href="https://www.google.ro">Group Rates</a>
+				</div>
+				<div>
+					<h2>Discount Flights</h2>
+					<p>Discount flights available for individuals! single chair filler tickets for low rates!</p>
+					<a class="button-group" href="https://www.google.ro">Jump In</a>
+				</div>
+			</div>
+			<div class="about-us">
+				<h2 class="heading2">About us</h2>
+				<p class="p-about-us">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magma aliqua. Ut enim ad minim veniam quis nostrud
+					exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+					reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+					occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+				<a class="learn-more" href="https://www.google.ro">Learn More</a>
+			</div>
+		</div>
+	</div>
 </body>
+
 </html>

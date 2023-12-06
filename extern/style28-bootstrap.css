@@ -1,160 +1,182 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
-.social-media{
-	font-size: 15px;
-	
+
+body {
+	margin: 0;
 }
-.social-media i{
-	padding-left: 10px;
-	padding-right: 10px;
-}
-.borderjos{
+
+.media-section {
 	border-bottom-width: 1px !important;
 	border-bottom-color: #eeeeee !important;
 	border-bottom-style: solid !important;
 	padding: 10px 0px 10px 0 !important;
 }
+
+.media-section .social-media {
+	font-size: 15px;
+
+}
+
+.social-media i {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
 .social-media a {
 	text-decoration: none;
-	color:#636364 !important;
+	color: #636364 !important;
 	font-size: 23px;
-	font-weight:500;
+	font-weight: 500;
 	font-family: "Libre Franklin";
-	
+
 }
-.icon{
+
+.menu-section .logo img {
+	padding-top: 15px;
+	width: 100px;
+}
+
+.menu-section .column-2 {
+	background-color: white !important;
+}
+
+.menu-section .column-3 .phone {
 	font-size: 30px;
 }
-.borderCustom {
+
+.column-3 .contact h5, .column-4 h5 {
 	border-bottom: 1px solid #eeeeee !important;
 	padding-bottom: 10px;
 	font-family: "Libre Franklin";
 	font-size: 14px !important;
-	padding-top:10px;
-}
-.aliniere{
-	background-color: white !important;
+	padding-top: 10px;
 }
 
-
-.navbar{
-	padding-bottom:  !important;
-}
-
-.contact{
+.column-3 .contact {
 	padding-left: 0 !important;
-	
+
 }
-.student{
+
+.column-4 .student {
 	font-family: "Libre Franklin";
 	font-size: 13px;
 	font-weight: normal;
 }
-.logo img{
-	padding-top: 15px;
-	width:100px;
-}
 
-/*task18*/
-body {
-	margin: 0;
-}
-.principal {
+.section-container {
 	background-color: white;
 	padding: 40px 80px;
 	z-index: 1;
-	margin-bottom: -200px;
 	position: relative;
 	margin-left: 15px;
 	margin-right: 15px;
 }
-.grid-primar {
+
+.grid-section-one {
 	display: grid;
 	column-gap: 35px;
 	grid-template-columns: repeat(3, 1fr);
 	padding-top: 30px;
 }
-.grid-secundar {
+
+.grid-section-two {
 	display: grid;
 	column-gap: 30px;
 	grid-row-gap: 50px;
 	grid-template-columns: repeat(2, 1fr);
 	padding-top: 50px;
 }
-.grid-secundar div {
+
+.grid-section-two div {
 	background-color: white;
 	padding-bottom: 20px;
 }
 
-.office-suite img {
+.blocks-section-two img {
 	width: 40%;
 	margin-top: -30px;
 	margin-left: 20px;
 }
-.primar-image {
+
+.section-one img {
 	width: 100%;
 	margin-left: 0;
 }
-.grid-primar h2{
-	font-size:28px !important;
+
+.grid-section-one h2 {
+	font-size: 28px !important;
 }
-.principal h1 {
+
+.section-container h1 {
 	text-align: center;
 	font-size: 40px;
 }
-.secundar h1{
+
+.section-one h1, .section-two h1 {
 	text-align: center;
 	font-size: 40px;
 }
-.div1 h4 {
+
+.right-section-two h4 {
 	margin-top: 30px;
 	margin-bottom: 60px;
 }
-.div1 span {
+
+.right-section-two span {
 	color: red;
 	font-size: 25px;
 	margin-left: 40px;
 }
-.paragraf1 {
+
+.section-one p {
 	font-size: 20px;
 	line-height: 30px;
 	padding-top: 30px;
 }
-.grid-primar a{
-	font-size:30px;
+
+.grid-section-one a {
+	font-size: 30px;
 }
+
 .paragraf2 {
 	line-height: 30px;
 	font-size: 20px;
 	margin-top: 0;
 }
-.office{
+
+.office {
 	padding-top: 25px;
 	margin-bottom: 5px;
 }
+
 .paragraf2 a {
 	color: red;
 	text-decoration: none;
 	font-size: 30px;
 	font-weight: bold;
 }
-.background {
+
+.black-background {
 	background-color: #403836;
 	padding: 150px;
 }
-.secundar {
+
+.section-two {
 	background-image: url(imagini/background.png);
 	background-repeat: no-repeat;
 	background-color: #fbf0ee;
 	padding: 100px;
 
 }
-.office-suite {
+
+.blocks-section-two {
 	display: flex;
 }
-.div1 {
+
+.right-section-two {
 	margin-left: 40px;
 }
-.link-secundar {
+
+.link-section-two {
 	padding: 10px 20px;
 	color: white;
 	background-color: #FF4332;
@@ -162,14 +184,16 @@ body {
 	border-left: 2px solid black;
 	transition: all 0.8s ease;
 }
-.link-secundar:hover {
+
+.link-section-two:hover {
 	background-color: black;
 }
+
 .red-background {
 	background-color: #FF4332;
 	background-image: url(imagini/bgrosu.png);
 	background-repeat: no-repeat;
-	background-position:center;
+	background-position: center;
 }
 
 
@@ -181,26 +205,30 @@ body {
 	padding: 70px 35px;
 	margin-bottom: 80px;
 }
+
 .grid-container div {
 
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
-.renth1{
+
+.renth1 {
 	color: white;
 	font-size: 40px;
 	text-align: left;
-} 
+}
+
 .paragraf3 {
 	color: white;
 	line-height: 2;
 	font-size: 20px;
 }
+
 .link-book {
-	color: white; 
+	color: white;
 	padding: 15px;
-	background-color:#3f3836;
+	background-color: #3f3836;
 	border-left: 2px solid white;
 	transition: all 0.8s ease;
 	text-align: center;
@@ -208,6 +236,7 @@ body {
 	margin-right: 40px;
 	fill: white;
 }
+
 .link-book:hover {
 	background-color: white;
 	color: black;

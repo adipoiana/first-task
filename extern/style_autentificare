@@ -1,8 +1,0 @@
-.header{
-	height: 200px;
-	background-color: #606060 ;
-}
-.container {
-	width: 1000px;
-	
-}

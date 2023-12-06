@@ -1,113 +1,124 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<title>task16</title>
 	<style>
 		body {
-		    margin: 0;	
-		    }
-		.primar {
-		    background-color: #d6e1ff;
-		    justify-content: center;	
-		    align-items: center;
-		    display: flex;
-		    }
-		.ab {
-		   width: 30%;
-		   padding: 20px;
+			margin: 0;
+		}
 
-           }
-		.alfa {
-		    padding-top: 40px;
-		    width: 100%;
-		   }
-		.beta {
-		    background-color: white;
-		    width: 100%;
-		    border-radius: 0 0 8px 8px;
+		.main-section {
+			background-color: #d6e1ff;
+			justify-content: center;
+			align-items: center;
+			display: flex;
+		}
 
-           	}
-		.beta-1 {
-		    background-color: #dfdff1;
-		    display: grid;
-		    grid-template-columns: 80px 180px repeat(3, 1fr);
-		    border-radius: 8px;
-		    margin: 25px 40px;
-	        } 
-        .img-beta {
-		    width: 50px;
-		    height: 50px;
-		    border-radius: 50%;
-		    padding: 15px;
-            }
+		.section-container {
+			width: 30%;
+			padding: 20px;
 
-        img {
-		    width: 100%;
-		    height: 100%;
-		    border-radius: 8px 8px 0 0;
-		   
-            }
+		}
 
-        h2 {
-		    text-align: center;
-		    padding-top: 30px;
-		    margin: 0;
-            }
-		p {
-		    text-align: center;
-            }
+		.section-image {
+			padding-top: 40px;
+			width: 100%;
+		}
 
-        button  {
-		    padding: 10px 100px;
-		    border-radius: 10px;
-		    background-color: #0e0eb1;
-		    display: block;
-		    margin: auto;
-		    box-shadow: 10px 15px 20px gray ;
-		    border: none;
-		    }
-		a {
-		    text-align: center;
-		    padding-top: 30px;
-		    padding-right: 10px;
-            }
-        span {
-		    font-weight: normal;
-            }
-        .a1 {
-		    text-align: center;
-		    display: block;
-		    text-decoration: none;
-		    color: black;
-		    padding-top: 30px;
-		    padding-bottom: 30px;
-            }
-		    
+		.section-order {
+			background-color: white;
+			width: 100%;
+			border-radius: 0 0 8px 8px;
 
+		}
+
+		.annual-plan {
+			background-color: #dfdff1;
+			display: grid;
+			grid-template-columns: 80px 180px repeat(3, 1fr);
+			border-radius: 8px;
+			margin: 25px 40px;
+		}
+
+		.annual-plan img {
+			width: 50px;
+			height: 50px;
+			border-radius: 50%;
+			padding: 15px;
+		}
+
+		.section-image img {
+			width: 100%;
+			height: 100%;
+			border-radius: 8px 8px 0 0;
+
+		}
+
+		.section-order h2 {
+			text-align: center;
+			padding-top: 30px;
+			margin: 0;
+		}
+
+		.section-order p {
+			text-align: center;
+		}
+
+		.section-order button {
+			padding: 10px 100px;
+			border-radius: 10px;
+			background-color: #0e0eb1;
+			display: block;
+			margin: auto;
+			box-shadow: 10px 15px 20px gray;
+			border: none;
+		}
+
+		.section-order a {
+			text-align: center;
+			padding-top: 30px;
+			padding-right: 10px;
+		}
+
+		.annual-plan span {
+			font-weight: normal;
+		}
+
+		.section-order .cancel_order {
+			text-align: center;
+			display: block;
+			text-decoration: none;
+			color: black;
+			padding-top: 30px;
+			padding-bottom: 30px;
+		}
 	</style>
 </head>
+
 <body>
-<div class="primar">
-	<div class="ab">
-	<div class="alfa">
-		<img src="imagini/task8.jpg">
-	</div>
-	<div class="beta">
-		<h2>Order Summary</h2>
-		<p>You can now listen to millions of songs, <br> audiobooks and podcasts on any device <br> anywhere you like!</p>
-		<div class="beta-1">
-		<img class="img-beta" src="imagini/images1.jpg">
-		<h4>Annual Plan <br><span>$59.99/year</span></h4>
-		<a href="https://www.google.com" target="blank">Change</a>
+	<div class="main-section">
+		<div class="section-container">
+			<div class="section-image">
+				<img src="imagini/task8.jpg">
+			</div>
+			<div class="section-order">
+				<h2>Order Summary</h2>
+				<p>You can now listen to millions of songs, <br> audiobooks and podcasts on any device <br> anywhere you
+					like!</p>
+				<div class="annual-plan">
+					<img src="imagini/images1.jpg">
+					<h4>Annual Plan <br><span>$59.99/year</span></h4>
+					<a href="https://www.google.com" target="blank">Change</a>
+				</div>
+				<div>
+					<button>Proceed to Payment</button>
+				</div>
+				<a class="cancel_order" href="https://www.google.com" target="blank">Cancel Order</a>
+			</div>
 		</div>
-		<div class="buton">
-		<button>Proceed to Payment</button>
-	    </div>
-        <a class="a1" href="https://www.google.com" target="blank">Cancel Order</a>
 	</div>
-    </div>
-	
-</div>
 </body>
+
 </html>

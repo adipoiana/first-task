@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-.parinte {
+
+.main-content {
 	background: transparent;
 }
-h2 {
+
+.section-heading h2 {
 	font-size: 46px;
-	font-family: dinneuzeitgroteskltw01-_812426,sans-serif;
+	font-family: dinneuzeitgroteskltw01-_812426, sans-serif;
 	margin-left: 80px;
 	margin-bottom: 10px;
 	margin-top: 70px;
 	color: rgb(15 44 102);
-	
+
 }
-.imagini {
+
+.section-products {
 	background: #00000000;
 	display: flex;
 	padding: 40px 80px;
@@ -21,31 +24,33 @@ h2 {
 	position: relative;
 }
 
-span {
+.section-products span {
 	padding: 2px 12px;
-    border-style: solid;
-    position:absolute;
-    top: 40px;
-    background-color: #B73030;
-    border-color: #B73030;
-    color: white;
-    margin-top: 0%;
-    font: normal  14px/1.4em roboto-thin,roboto,sans-serif;
-    border: 0;
+	border-style: solid;
+	position: absolute;
+	top: 40px;
+	background-color: #B73030;
+	border-color: #B73030;
+	color: white;
+	margin-top: 0%;
+	font: normal 14px/1.4em roboto-thin, roboto, sans-serif;
+	border: 0;
 }
-.paragraph {
+
+.product-name {
 	font-size: 20px;
 	font-family: sans-serif;
-    
+
 }
-.paragraph1 {
+
+.price {
 	font-size: 20px;
-	font: normal normal normal 24px/1.4em dinneuzeitgroteskltw01-_812426,sans-serif;
+	font: normal normal normal 24px/1.4em dinneuzeitgroteskltw01-_812426, sans-serif;
 	line-height: 0;
 	color: rgb(15 44 102);
 }
-.first a: hover{
-text text-decoration: none;
-color: #1FB4CC;
 
+.section-products div:hover {
+	text-decoration: none;
+	color: #1FB4CC;
 }

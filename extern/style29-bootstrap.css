@@ -1,27 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
 body {
-	font-family:'Raleway', sans-serif ;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 	line-height: 26px;
 	font-size: 14px;
 	background-color: #f4f4f5;
 }
-.logo{
-padding: 15px 15px 11px;
+
+.logo {
+	padding: 15px 15px 11px;
 }
-.navibar{
+
+.navibar {
 	border-top: 4px solid #199cdb;
-	padding-top:0 !important ;
+	padding-top: 0 !important;
 	position: fixed;
 	top: 0;
 	background-color: white;
 	z-index: 4;
 	border-bottom: 2px solid #80808059;
 }
-.navbar{
-	padding-top:0 !important ;
+
+.navbar {
+	padding-top: 0 !important;
 	padding-bottom: 0 !important;
 }
+
 .navbar-collapse {
 	font-size: 15px !important;
 	border-color: #dfdfdf;
@@ -32,69 +37,80 @@ padding: 15px 15px 11px;
 	line-height: 70px;
 	width: 100%;
 }
+
 .nav-item .active {
 	background-color: rgb(25 156 219);
 	color: #ffffff !important;
 }
+
 .nav-link:hover {
 	background-color: rgb(25 156 219);
 	color: white !important;
 }
-.nav-link{
+
+.nav-link {
 	padding-right: 15px !important;
 	padding-left: 15px !important;
 }
 
 
-.first-part{
+.slider-section {
 	padding-left: 0 !important;
 	padding-right: 0 !important;
 }
-.carusel{
+
+.slider-section .carusel {
 	margin-top: 90px;
 }
-.carousel-caption{
-	top: 7.25rem ;
+
+.carousel-caption {
+	top: 7.25rem;
 	text-align: left !important;
 }
-.titlu-carousel{
+
+.titlu-carousel {
 	font-size: 34px;
 	font-weight: bold;
-} 
-.titlu-carousel span{
+}
+
+.titlu-carousel span {
 	font-size: 50px;
 }
 
-.second-part{
+.section-one {
 	background-color: #199cdb;
 	border-bottom: 2px solid #eaeaea;
 	padding: 70px 0;
 	color: rgb(255 255 255 / 74%);
 }
-.second-part h2 {
+
+.section-one h2 {
 	color: #ffffff;
 }
-.second-part p{
-margin: 0 0 10px;
+
+.section-one p {
+	margin: 0 0 10px;
 }
 
 
 
-.titlu {
+.section-two h2, .section-three h2, .section-four h2, .section-six h2, .section-contact h2 {
 	text-align: center;
 	font-size: 38px !important;
 	color: #272727;
 	padding-top: 50px !important;
-	font-family:'Raleway', sans-serif ;
-	font-weight:bold !important;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold !important;
 	padding-bottom: 15px;
 }
+
 .borderh {
 	border: 2px solid #199cdb !important;
 	width: 13%;
 	margin: 0 auto 20px auto;
 }
-.text{
+
+.text {
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
 	color: #64686d;
@@ -103,16 +119,20 @@ margin: 0 0 10px;
 	font-size: 14px;
 	padding-bottom: 50px;
 }
-.first-row1{
+
+.first-row1 {
 	display: flex;
 }
-.second-row{
+
+.second-row {
 	padding-bottom: 50px;
 }
+
 .car {
 	margin-bottom: 0;
 	text-align: left;
 }
+
 .iclass {
 	font-size: 32px;
 	text-align: center;
@@ -124,7 +144,8 @@ margin: 0 0 10px;
 	display: inline-block;
 	background: #199cdb;
 }
-.contur{
+
+.contur {
 	border: 1px dashed #199cdb;
 	padding: 10px;
 	border-radius: 50%;
@@ -132,68 +153,77 @@ margin: 0 0 10px;
 	height: 100px;
 	text-align: center;
 }
+
 .head-paragraph {
 	text-align: left;
 	margin-left: 12px;
 }
+
 .subtitlu {
 	margin-bottom: 5px !important;
 	margin-top: 0;
 	font-weight: bold !important;
 	color: #272727 !important;
-	font-family:'Raleway', sans-serif ;
+	font-family: 'Raleway', sans-serif;
 	font-size: 18px !important;
 }
 
 
-.about-us{
+.section-three {
 	padding: 50px 0 50px;
 }
-.about-img img{
+
+.about-img img {
 	width: 100% !important;
 	height: 100%;
 }
+
 .about-text {
 	width: 100% !important;
 	height: 100%;
 	padding-bottom: 70px;
 	text-align: left !important;
 
-	
+
 }
 
 
-
-.our-price{
+.section-four {
 	background-color: #d8d8d8;
 	padding: 40px 0 20px;
 }
-.price {
+
+.section-six .price {
 	color: #272727;
 }
-.pret {
+
+.service-price {
 	list-style: none;
-	border: 1px solid #eee ;
+	border: 1px solid #eee;
 	color: #64686d;
 	text-align: center;
 	padding-left: 0;
 }
-.pret .header {
+
+.service-price .header {
 	background-color: #199cdb;
 	color: white;
 	font-size: 25px;
 	padding: 20px;
 }
-.pret .gray {
+
+.service-price .gray {
 	background-color: #eee;
 	font-size: 20px;
 }
-.pret li{
+
+.service-price li {
 	padding: 20px;
 	border-bottom: 1px solid #eee;
 	background-color: #fff;
 }
-.pret a{
+
+.service-price a {
 	background-color: #199cdb;
 	list-style: none;
 	border: none;
@@ -206,64 +236,76 @@ margin: 0 0 10px;
 }
 
 
-.black{
+.section-five {
 	background-color: #2a2a32;
 	color: #fff;
 	padding: 50px 0;
 	text-align: center;
 }
-.white{
+
+.section-five h2, .section-contact h2 {
 	color: #fff;
 }
-.centru{
+
+.centru {
 	text-align: center !important;
-	
+
 }
-.portofoliu{
+
+.section-five .portofoliu {
 	list-style: none;
 	display: flex;
 	justify-content: center;
-	padding: 0 0 50px ;
+	padding: 0 0 50px;
 }
-.portofoliu li{
+
+.section-five .portofoliu li {
 	margin: 5px;
 }
-.portofoliu button{
+
+.section-five .portofoliu button {
 	padding: 7px 15px;
 	border: 1px solid #199cdb;
 	border-radius: 5px;
 	text-decoration: none;
 }
-.portofoliu button:hover{
-	background-color:#199cdb ;
+
+.portofoliu button:hover {
+	background-color: #199cdb;
 	color: white;
 }
 
-.nav-tabs{
+.nav-tabs {
 	border-bottom: 0 !important;
 }
- .nav-tabs .nav-link.active{
- 	background-color:#199cdb !important ;
- 	border: 0 !important;
- }
- .car-list img{
+
+.nav-tabs .nav-link.active {
+	background-color: #199cdb !important;
+	border: 0 !important;
+}
+
+.car-list img {
 	width: 100%;
 	height: auto;
-	
- }
- .car-list .col-sm-3{
+
+}
+
+.car-list .col-sm-3 {
 	padding-left: 7px;
 	padding-right: 7px;
-	
- }
- .first-row-car{
- 	margin-bottom: 14px;
+
 }
-.imagine{
+
+.first-row-car {
+	margin-bottom: 14px;
+}
+
+.imagine {
 	position: relative;
 
 }
-.fa-magnifying-glass{
+
+.fa-magnifying-glass {
 	position: absolute;
 	left: 45%;
 	top: 45%;
@@ -271,8 +313,9 @@ margin: 0 0 10px;
 	display: none !important;
 	font-size: 35px;
 }
-.overlay{
-	background-color:#199cdb ;
+
+.overlay {
+	background-color: #199cdb;
 	opacity: 0.6;
 	position: absolute;
 	top: 0;
@@ -282,36 +325,42 @@ margin: 0 0 10px;
 	height: 100%;
 	display: none;
 }
-.imagine:hover .overlay{
+
+.imagine:hover .overlay {
 	display: block;
 }
+
 .imagine:hover .fa-magnifying-glass {
 	display: block !important;
 }
 
 
-.team{
+.section-six {
 	padding: 50px 0 100px;
 	background-color: #f4f4f5;
 }
-.info-team{
+
+.info-team {
 	display: block;
 	text-align: center;
 	background-color: #efefef;
 	padding-bottom: 10px;
 	padding-top: 20px;
 }
-.info-team h3{
+
+.info-team h3 {
 	font-size: 23px;
 }
-.carousel-team{
+
+.carousel-team {
 	background-color: #2a2a32;
 	color: #fff;
 	padding: 100px 0;
 	background-size: cover;
 
 }
-.carousel-team img{
+
+.carousel-team img {
 	width: 100px;
 }
 
@@ -320,109 +369,116 @@ margin: 0 0 10px;
 
 
 
-.contact{
+.section-contact .contact {
 	background-color: #199cdb;
 	padding: 50px 0 100px 0;
 
 }
-.contact-adress{
+
+.contact-adress {
 	background-color: #f4f4f5;
 }
-.contact-us{
+
+.contact-us {
 	padding-bottom: 20px;
 }
-.contactp{
-	color:#fff ;
+
+.contactp {
+	color: #fff;
 	text-align: center;
 }
-.contact-info{
+
+.contact-info {
 	padding: 60px 0 0;
 }
-address{
+
+address {
 	margin: 0 !important;
 }
-.form{
+
+.form {
 	margin-bottom: 10px;
 }
-.form-message{
+
+.form-message {
 	padding-bottom: 200px !important;
 }
-.btn-primary{
+
+.btn-primary {
 	background-color: transparent !important;
 	color: #199cdb !important;
 	padding: 12px 30px !important;
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
 	background-color: #199cdb !important;
 	color: White !important;
 }
-.submit{
+
+.submit {
 	padding-bottom: 60px;
 }
 
-.mapouter{
+.mapouter {
 	position: relative;
 	text-align: right;
 	width: 100% !important;
-	height:500px ;
+	height: 500px;
 }
-.gmap_canvas{
+
+.gmap_canvas {
 	overflow: hidden;
 	background: none !important;
 	width: 100%px;
-	height: 500px !important ;
+	height: 500px !important;
 }
+
 .gmap_iframe {
-	width:100%!important;
-	height:500px!important;
+	width: 100% !important;
+	height: 500px !important;
 }
-.footer{
+
+.footer {
 	background-color: #2a2a32;
 	color: #9a9a9a;
 	padding: 30px 0;
 }
-.btns button{
+
+.btns button {
 	position: relative;
 	width: auto;
 	border: 1px solid rgba(255, 255, 255, 0.2);
-    margin: 0 8px;
-    padding: 12px 30px;
-    border-radius: 5px;
-    background-color: #8594b1;
-    opacity: 1;
+	margin: 0 8px;
+	padding: 12px 30px;
+	border-radius: 5px;
+	background-color: #8594b1;
+	opacity: 1;
 
 }
-.btns button:hover{
+
+.btns button:hover {
 	background-color: #199cdb;
 
 }
-.btns{
+
+.btns {
 	position: absolute;
 	display: grid;
-    bottom: 0;
-    right: 40%;
-    margin: auto;
-    grid-template-columns: repeat(2, 1fr);
+	bottom: 0;
+	right: 40%;
+	margin: auto;
+	grid-template-columns: repeat(2, 1fr);
 
 }
-.arrow{
+
+.arrow {
 	padding-bottom: 70px !important;
 }
-.width{
+
+.width {
 	width: 1rem !important;
 	height: 1rem !important;
 	background-size: 70% 70% !important;
 
 
 }
-
-
-
-
- 
-
-
-
-
-
-
